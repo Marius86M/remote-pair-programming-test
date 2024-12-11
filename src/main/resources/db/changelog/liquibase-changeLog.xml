@@ -12,4 +12,7 @@
         </createTable>
     </changeSet>
 
+    <!-- Include User module changelog -->
+    <include file="db/changelog/data.populate.cars-databaseChangeLog.xml"/>
+
 </databaseChangeLog>
